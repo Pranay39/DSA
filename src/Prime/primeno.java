@@ -11,6 +11,11 @@ public class primeno {
 		
 		int flag=0;
 		
+		if(num == 0 || num == 1) {
+			System.out.println("Not a Prime Number");
+		}
+		
+		else {
 		for(int i=2; i<num/2; i++) {
 			
 			if (num % i == 0) {
@@ -23,6 +28,7 @@ public class primeno {
 		if (flag == 0) {
 			System.out.print("Prime Number");
 		}
+	}
 	}
 	
 	
