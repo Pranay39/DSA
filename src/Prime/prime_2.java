@@ -39,12 +39,13 @@ static void checkprime(int n)
 
 	public static void main(String[] args) {
 		
-		checkprime(8);
-		checkprime(7);
-		checkprime(1);
-		checkprime(0);
-		checkprime(36);
-		checkprime(11);
+//		checkprime(8);
+//		checkprime(7);
+//		checkprime(1);
+//		checkprime(0);
+//		checkprime(36);
+//		checkprime(11);
+		checkprime(4);
 		
 		
 		

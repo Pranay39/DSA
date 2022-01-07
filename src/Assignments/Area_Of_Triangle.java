@@ -16,6 +16,10 @@ public class Area_Of_Triangle {
 //		
 //		double area = (base * height) / 2;   // When base & height are given
 //		System.out.println("Area= "+area);
+		
+		
+		
+		
 //		
 		
 		/* Area of isosceles triangle where side and base is given
@@ -23,10 +27,21 @@ public class Area_Of_Triangle {
 		 
 		*/
 		
-		double side_A = input.nextDouble();
-		double base2 = input.nextDouble();
-		double area_i = ( base2 * (Math.sqrt((4 * side_A * side_A) - base2 * base2)) )/ 4;
-		System.out.println("Area of Isosceles Triangle= "+area_i);
+//		double side_A = input.nextDouble();
+//		double base2 = input.nextDouble();
+//		double area_i = ( base2 * (Math.sqrt((4 * side_A * side_A) - base2 * base2)) )/ 4;
+//		System.out.println("Area of Isosceles Triangle= "+area_i);
+		
+		
+		
+		
+		
+		// Area of Equilateral Triangle ( All sides are equal )  --> (root(3) / 4) * a * a
+		
+		double side_a = input.nextDouble();
+		double area_equi_tri = (Math.sqrt(3) / 4) * side_a * side_a;
+		System.out.println(area_equi_tri);
+		
 
 	}
 
